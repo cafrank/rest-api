@@ -1,7 +1,7 @@
 {
   "name": "rest-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Getting started:\r $ cd rest-api\r $ npm install\r $ nodemon app.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,16 @@
     "express": "^4.17.1",
     "googleapis": "^39.2.0",
     "mongodb": "^3.4.1",
-    "morgan": "^1.9.1"
-  }
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1",
+    "postgres": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cafrank/rest-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cafrank/rest-api/issues"
+  },
+  "homepage": "https://github.com/cafrank/rest-api#readme"
 }
